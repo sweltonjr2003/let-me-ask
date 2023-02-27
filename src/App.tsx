@@ -1,16 +1,12 @@
 import React from "react"
-import Button from "./components/Button"
 
+import { Outlet } from 'react-router-dom'
 
 function App() {
 
   return (
     <div className="App">
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
+      <Outlet/>
     </div>
   )
 }
