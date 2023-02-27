@@ -1,8 +1,14 @@
-function App() {
+import React from "react"
+import Button from "./components/Button"
 
+function App() {
   return (
     <div className="App">
-      Let Me Ask
+      <Button />
+      <Button />
+      <Button />
+      <Button />
+      <Button />
     </div>
   )
 }
