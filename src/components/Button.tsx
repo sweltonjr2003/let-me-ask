@@ -1,4 +1,4 @@
-import React, { HtmlHTMLAttributes, useState } from 'react'
+import React, { useState } from 'react'
 
 const Button = () => {
     const [counter, setCounter] = useState(0)
