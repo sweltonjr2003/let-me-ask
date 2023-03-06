@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -9,3 +9,9 @@ body {
     color: #29292e;
 }
 
+body,
+input,
+button,
+textarea {
+    font: 400 1em 'Roboto', sans-serif;
+}
